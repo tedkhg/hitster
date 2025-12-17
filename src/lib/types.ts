@@ -7,6 +7,7 @@ export interface Song {
   year: number;
   difficulty: Difficulty;
   youtubeQuery: string;
+  videoId?: string; // YouTube 비디오 ID (선택적)
 }
 
 export interface TimelineCard {

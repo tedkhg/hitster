@@ -1,1034 +1,848 @@
 [
   {
-    "id": "4377b7a952",
-    "title": "성인식",
-    "artist": "박지윤",
-    "year": 2000,
-    "difficulty": "normal",
-    "youtubeQuery": "박지윤 성인식 official audio"
-  },
-  {
-    "id": "7366ecde79",
-    "title": "좋은 사람",
-    "artist": "박효신",
-    "year": 2000,
-    "difficulty": "normal",
-    "youtubeQuery": "박효신 좋은 사람 official audio"
-  },
-  {
-    "id": "54916dfb14",
-    "title": "와",
-    "artist": "이정현",
-    "year": 2000,
-    "difficulty": "normal",
-    "youtubeQuery": "이정현 와 official audio"
-  },
-  {
-    "id": "8fdfebc7ae",
+    "id": "kr2000_01",
     "title": "아시나요",
     "artist": "조성모",
     "year": 2000,
     "difficulty": "easy",
-    "youtubeQuery": "조성모 아시나요 official audio"
+    "youtubeQuery": "조성모 아시나요",
+    "videoId": "CZ5EHqJXZ2A"
   },
   {
-    "id": "aa8c46e410",
-    "title": "초련",
-    "artist": "클론",
+    "id": "kr2000_02",
+    "title": "성인식",
+    "artist": "박지윤",
     "year": 2000,
     "difficulty": "normal",
-    "youtubeQuery": "클론 초련 official audio"
+    "youtubeQuery": "박지윤 성인식",
+    "videoId": "BdLUIk4fq5w"
   },
   {
-    "id": "768073bd0e",
+    "id": "kr2001_01",
     "title": "길",
     "artist": "god",
     "year": 2001,
     "difficulty": "easy",
-    "youtubeQuery": "god 길 official audio"
+    "youtubeQuery": "god 길",
+    "videoId": "jbsOYdHnZto"
   },
   {
-    "id": "2ed86ea70c",
-    "title": "내게 오는 길",
-    "artist": "성시경",
+    "id": "kr2001_02",
+    "title": "Can't Stop",
+    "artist": "god",
     "year": 2001,
     "difficulty": "easy",
-    "youtubeQuery": "성시경 내게 오는 길 official audio"
+    "youtubeQuery": "god Can't Stop",
+    "videoId": "NsXnq0oEW5Q"
   },
   {
-    "id": "f269a2a11a",
-    "title": "Perfect Man",
-    "artist": "신화",
-    "year": 2001,
+    "id": "kr2002_01",
+    "title": "천상유희",
+    "artist": "클래지콰이",
+    "year": 2002,
+    "difficulty": "hard",
+    "youtubeQuery": "클래지콰이 천상유희",
+    "videoId": "rGTrfykhtFo"
+  },
+  {
+    "id": "kr2002_02",
+    "title": "죽어도 못 보내",
+    "artist": "거미",
+    "year": 2002,
     "difficulty": "normal",
-    "youtubeQuery": "신화 Perfect Man official audio"
+    "youtubeQuery": "거미 죽어도 못 보내",
+    "videoId": "N6oZE3MwB2Y"
   },
   {
-    "id": "9540ea1bf2",
-    "title": "파란",
-    "artist": "코요태",
-    "year": 2001,
+    "id": "kr2003_01",
+    "title": "눈물",
+    "artist": "휘성",
+    "year": 2003,
     "difficulty": "normal",
-    "youtubeQuery": "코요태 파란 official audio"
+    "youtubeQuery": "휘성 눈물",
+    "videoId": "kSrUW28ACRI"
   },
   {
-    "id": "2b8aaea5e6",
-    "title": "미안해요",
+    "id": "kr2003_02",
+    "title": "미워도 다시 한번",
     "artist": "김건모",
-    "year": 2002,
-    "difficulty": "normal",
-    "youtubeQuery": "김건모 미안해요 official audio"
-  },
-  {
-    "id": "e394b4f8a6",
-    "title": "No.1",
-    "artist": "보아",
-    "year": 2002,
-    "difficulty": "easy",
-    "youtubeQuery": "보아 No.1 official audio"
-  },
-  {
-    "id": "09396e35d5",
-    "title": "벌써 일년",
-    "artist": "브라운아이즈",
-    "year": 2002,
-    "difficulty": "easy",
-    "youtubeQuery": "브라운아이즈 벌써 일년 official audio"
-  },
-  {
-    "id": "359b477427",
-    "title": "라라라",
-    "artist": "이수영",
-    "year": 2002,
-    "difficulty": "normal",
-    "youtubeQuery": "이수영 라라라 official audio"
-  },
-  {
-    "id": "1ecd5e6f89",
-    "title": "Now",
-    "artist": "핑클",
-    "year": 2002,
-    "difficulty": "normal",
-    "youtubeQuery": "핑클 Now official audio"
-  },
-  {
-    "id": "f387752bc0",
-    "title": "Hug",
-    "artist": "동방신기",
     "year": 2003,
     "difficulty": "normal",
-    "youtubeQuery": "동방신기 Hug official audio"
+    "youtubeQuery": "김건모 미워도 다시 한번",
+    "videoId": "tCKA3p3ZbWc"
   },
   {
-    "id": "3af68e0f87",
-    "title": "겁쟁이",
-    "artist": "버즈",
-    "year": 2003,
-    "difficulty": "easy",
-    "youtubeQuery": "버즈 겁쟁이 official audio"
-  },
-  {
-    "id": "5f97bdf5f9",
-    "title": "너의 결혼식",
-    "artist": "신화",
-    "year": 2003,
-    "difficulty": "normal",
-    "youtubeQuery": "신화 너의 결혼식 official audio"
-  },
-  {
-    "id": "2717d0168d",
-    "title": "휠릴리",
-    "artist": "이수영",
-    "year": 2003,
-    "difficulty": "normal",
-    "youtubeQuery": "이수영 휠릴리 official audio"
-  },
-  {
-    "id": "e56142b742",
-    "title": "10 Minutes",
-    "artist": "이효리",
-    "year": 2003,
-    "difficulty": "easy",
-    "youtubeQuery": "이효리 10 Minutes official audio"
-  },
-  {
-    "id": "9834ec7767",
-    "title": "Timeless",
-    "artist": "SG워너비",
+    "id": "kr2004_01",
+    "title": "I Believe",
+    "artist": "신승훈",
     "year": 2004,
     "difficulty": "easy",
-    "youtubeQuery": "SG워너비 Timeless official audio"
+    "youtubeQuery": "신승훈 I Believe",
+    "videoId": "yZxK0bHRqSA"
   },
   {
-    "id": "026cb202e8",
-    "title": "The Way U Are",
-    "artist": "동방신기",
+    "id": "kr2004_02",
+    "title": "연애편지",
+    "artist": "십센치",
     "year": 2004,
     "difficulty": "normal",
-    "youtubeQuery": "동방신기 The Way U Are official audio"
+    "youtubeQuery": "십센치 연애편지",
+    "videoId": "0M1Wt3ioM_c"
   },
   {
-    "id": "5b2905f557",
-    "title": "사랑했잖아",
-    "artist": "린",
-    "year": 2004,
-    "difficulty": "normal",
-    "youtubeQuery": "린 사랑했잖아 official audio"
-  },
-  {
-    "id": "26ac461ec2",
-    "title": "It's Raining",
-    "artist": "비",
-    "year": 2004,
-    "difficulty": "easy",
-    "youtubeQuery": "비 It's Raining official audio"
-  },
-  {
-    "id": "88fc19a794",
-    "title": "내 여자라니까",
-    "artist": "이승기",
-    "year": 2004,
-    "difficulty": "easy",
-    "youtubeQuery": "이승기 내 여자라니까 official audio"
-  },
-  {
-    "id": "88fbb9fa03",
-    "title": "사랑스러워",
-    "artist": "김종국",
-    "year": 2005,
-    "difficulty": "easy",
-    "youtubeQuery": "김종국 사랑스러워 official audio"
-  },
-  {
-    "id": "66e12a225a",
-    "title": "Rising Sun",
-    "artist": "동방신기",
-    "year": 2005,
-    "difficulty": "easy",
-    "youtubeQuery": "동방신기 Rising Sun official audio"
-  },
-  {
-    "id": "51df7543f0",
-    "title": "Monologue",
-    "artist": "버즈",
-    "year": 2005,
-    "difficulty": "normal",
-    "youtubeQuery": "버즈 Monologue official audio"
-  },
-  {
-    "id": "d6b41ebf85",
-    "title": "Fly",
-    "artist": "에픽하이",
-    "year": 2005,
-    "difficulty": "normal",
-    "youtubeQuery": "에픽하이 Fly official audio"
-  },
-  {
-    "id": "248d745f7c",
-    "title": "긴 하루",
-    "artist": "이승철",
-    "year": 2005,
-    "difficulty": "normal",
-    "youtubeQuery": "이승철 긴 하루 official audio"
-  },
-  {
-    "id": "7aba4bb44e",
-    "title": "La La La",
+    "id": "kr2005_01",
+    "title": "거짓말",
     "artist": "빅뱅",
+    "year": 2005,
+    "difficulty": "easy",
+    "youtubeQuery": "빅뱅 거짓말",
+    "videoId": "2Cv3phvP8Ro"
+  },
+  {
+    "id": "kr2005_02",
+    "title": "환생",
+    "artist": "SG워너비",
+    "year": 2005,
+    "difficulty": "normal",
+    "youtubeQuery": "SG워너비 환생",
+    "videoId": "JOY5pCwv5K8"
+  },
+  {
+    "id": "kr2006_01",
+    "title": "죄와 벌",
+    "artist": "SG워너비",
     "year": 2006,
     "difficulty": "normal",
-    "youtubeQuery": "빅뱅 La La La official audio"
+    "youtubeQuery": "SG워너비 죄와 벌",
+    "videoId": "Nj6hBIкиєс"
   },
   {
-    "id": "1ea4433390",
+    "id": "kr2006_02",
+    "title": "Timeless",
+    "artist": "장리인",
+    "year": 2006,
+    "difficulty": "normal",
+    "youtubeQuery": "장리인 Timeless",
+    "videoId": "aQRJT0RnWlU"
+  },
+  {
+    "id": "kr2007_01",
     "title": "U",
     "artist": "슈퍼주니어",
-    "year": 2006,
+    "year": 2007,
     "difficulty": "easy",
-    "youtubeQuery": "슈퍼주니어 U official audio"
+    "youtubeQuery": "슈퍼주니어 U",
+    "videoId": "d7yeuo-jP6k"
   },
   {
-    "id": "fc3e36b6ba",
-    "title": "사랑의 인사",
-    "artist": "씨야",
-    "year": 2006,
-    "difficulty": "normal",
-    "youtubeQuery": "씨야 사랑의 인사 official audio"
-  },
-  {
-    "id": "316184f6f1",
-    "title": "Love Love Love",
-    "artist": "에픽하이",
-    "year": 2006,
-    "difficulty": "normal",
-    "youtubeQuery": "에픽하이 Love Love Love official audio"
-  },
-  {
-    "id": "9de2ccf0f6",
-    "title": "비밀번호 486",
-    "artist": "윤하",
-    "year": 2006,
-    "difficulty": "easy",
-    "youtubeQuery": "윤하 비밀번호 486 official audio"
-  },
-  {
-    "id": "a4a17f3228",
+    "id": "kr2007_02",
     "title": "거짓말",
     "artist": "빅뱅",
     "year": 2007,
     "difficulty": "easy",
-    "youtubeQuery": "빅뱅 거짓말 official audio"
+    "youtubeQuery": "빅뱅 거짓말",
+    "videoId": "2Cv3phvP8Ro"
   },
   {
-    "id": "d5bdc93ed0",
-    "title": "마지막 인사",
-    "artist": "빅뱅",
-    "year": 2007,
-    "difficulty": "easy",
-    "youtubeQuery": "빅뱅 마지막 인사 official audio"
-  },
-  {
-    "id": "c32025ab4d",
-    "title": "다시 만난 세계",
-    "artist": "소녀시대",
-    "year": 2007,
-    "difficulty": "easy",
-    "youtubeQuery": "소녀시대 다시 만난 세계 official audio"
-  },
-  {
-    "id": "82846fb579",
-    "title": "One",
-    "artist": "에픽하이",
-    "year": 2007,
-    "difficulty": "easy",
-    "youtubeQuery": "에픽하이 One official audio"
-  },
-  {
-    "id": "74b4ba020c",
-    "title": "Tell Me",
-    "artist": "원더걸스",
-    "year": 2007,
-    "difficulty": "easy",
-    "youtubeQuery": "원더걸스 Tell Me official audio"
-  },
-  {
-    "id": "e76f40d451",
-    "title": "Abracadabra",
-    "artist": "브라운아이드걸스",
-    "year": 2008,
-    "difficulty": "easy",
-    "youtubeQuery": "브라운아이드걸스 Abracadabra official audio"
-  },
-  {
-    "id": "b02e6ac880",
-    "title": "하루하루",
-    "artist": "빅뱅",
-    "year": 2008,
-    "difficulty": "easy",
-    "youtubeQuery": "빅뱅 하루하루 official audio"
-  },
-  {
-    "id": "4aa63c6b53",
-    "title": "누난 너무 예뻐 (Replay)",
-    "artist": "샤이니",
-    "year": 2008,
-    "difficulty": "easy",
-    "youtubeQuery": "샤이니 누난 너무 예뻐 (Replay) official audio"
-  },
-  {
-    "id": "aeeada52bf",
+    "id": "kr2008_01",
     "title": "Nobody",
     "artist": "원더걸스",
     "year": 2008,
     "difficulty": "easy",
-    "youtubeQuery": "원더걸스 Nobody official audio"
+    "youtubeQuery": "원더걸스 Nobody",
+    "videoId": "QZBn1e9pr2Q"
   },
   {
-    "id": "145e7f99b0",
-    "title": "One More Time",
-    "artist": "쥬얼리",
+    "id": "kr2008_02",
+    "title": "Day by Day",
+    "artist": "빅뱅",
     "year": 2008,
     "difficulty": "normal",
-    "youtubeQuery": "쥬얼리 One More Time official audio"
+    "youtubeQuery": "빅뱅 Day by Day",
+    "videoId": "3cVNPpEvuRI"
   },
   {
-    "id": "d197c9638b",
-    "title": "Fire",
-    "artist": "2NE1",
-    "year": 2009,
-    "difficulty": "easy",
-    "youtubeQuery": "2NE1 Fire official audio"
-  },
-  {
-    "id": "ecbe66c4a5",
-    "title": "Again & Again",
-    "artist": "2PM",
-    "year": 2009,
-    "difficulty": "easy",
-    "youtubeQuery": "2PM Again & Again official audio"
-  },
-  {
-    "id": "4c1a0c7687",
-    "title": "8282",
-    "artist": "다비치",
-    "year": 2009,
-    "difficulty": "normal",
-    "youtubeQuery": "다비치 8282 official audio"
-  },
-  {
-    "id": "2eeda32870",
+    "id": "kr2009_01",
     "title": "Gee",
     "artist": "소녀시대",
     "year": 2009,
     "difficulty": "easy",
-    "youtubeQuery": "소녀시대 Gee official audio"
+    "youtubeQuery": "소녀시대 Gee",
+    "videoId": "U7mPqycQ0tQ"
   },
   {
-    "id": "750033f493",
-    "title": "Sorry, Sorry",
-    "artist": "슈퍼주니어",
+    "id": "kr2009_02",
+    "title": "거북이",
+    "artist": "다비치",
     "year": 2009,
-    "difficulty": "easy",
-    "youtubeQuery": "슈퍼주니어 Sorry, Sorry official audio"
+    "difficulty": "normal",
+    "youtubeQuery": "다비치 거북이",
+    "videoId": "t77JDvP1A74"
   },
   {
-    "id": "c9f09f9ebd",
-    "title": "Mister",
-    "artist": "카라",
-    "year": 2009,
-    "difficulty": "easy",
-    "youtubeQuery": "카라 Mister official audio"
-  },
-  {
-    "id": "f51749366c",
-    "title": "죽어도 못 보내",
-    "artist": "2AM",
-    "year": 2010,
-    "difficulty": "easy",
-    "youtubeQuery": "2AM 죽어도 못 보내 official audio"
-  },
-  {
-    "id": "b11f91a8df",
-    "title": "Go Away",
-    "artist": "2NE1",
+    "id": "kr2010_01",
+    "title": "한숨",
+    "artist": "이하이",
     "year": 2010,
     "difficulty": "normal",
-    "youtubeQuery": "2NE1 Go Away official audio"
+    "youtubeQuery": "이하이 한숨",
+    "videoId": "Fb5WBVq9IO8"
   },
   {
-    "id": "e4e5ecead2",
-    "title": "Bad Girl Good Girl",
-    "artist": "miss A",
-    "year": 2010,
-    "difficulty": "easy",
-    "youtubeQuery": "miss A Bad Girl Good Girl official audio"
-  },
-  {
-    "id": "60942e3431",
+    "id": "kr2010_02",
     "title": "Oh!",
     "artist": "소녀시대",
     "year": 2010,
     "difficulty": "easy",
-    "youtubeQuery": "소녀시대 Oh! official audio"
+    "youtubeQuery": "소녀시대 Oh!",
+    "videoId": "TGbwL8kSpEk"
   },
   {
-    "id": "d513fec8eb",
-    "title": "잔소리",
-    "artist": "아이유",
-    "year": 2010,
-    "difficulty": "easy",
-    "youtubeQuery": "아이유 잔소리 official audio"
-  },
-  {
-    "id": "85dc4cbabe",
-    "title": "I Am The Best",
-    "artist": "2NE1",
-    "year": 2011,
-    "difficulty": "easy",
-    "youtubeQuery": "2NE1 I Am The Best official audio"
-  },
-  {
-    "id": "e846ed4a73",
-    "title": "Fiction",
+    "id": "kr2011_01",
+    "title": "픽션",
     "artist": "비스트",
     "year": 2011,
-    "difficulty": "easy",
-    "youtubeQuery": "비스트 Fiction official audio"
-  },
-  {
-    "id": "b6b7a9faeb",
-    "title": "So Cool",
-    "artist": "씨스타",
-    "year": 2011,
     "difficulty": "normal",
-    "youtubeQuery": "씨스타 So Cool official audio"
+    "youtubeQuery": "비스트 픽션",
+    "videoId": "ZAzWT8mRoR0"
   },
   {
-    "id": "d3467be445",
-    "title": "좋은 날",
-    "artist": "아이유",
+    "id": "kr2011_02",
+    "title": "나는 나비",
+    "artist": "YB",
     "year": 2011,
-    "difficulty": "easy",
-    "youtubeQuery": "아이유 좋은 날 official audio"
+    "difficulty": "hard",
+    "youtubeQuery": "YB 나는 나비",
+    "videoId": "QRh_1JtVbB4"
   },
   {
-    "id": "0a7b65079a",
-    "title": "Roly-Poly",
-    "artist": "티아라",
-    "year": 2011,
-    "difficulty": "easy",
-    "youtubeQuery": "티아라 Roly-Poly official audio"
-  },
-  {
-    "id": "270cdb35d4",
-    "title": "MAMA",
-    "artist": "EXO",
-    "year": 2012,
-    "difficulty": "normal",
-    "youtubeQuery": "EXO MAMA official audio"
-  },
-  {
-    "id": "85728a5d7d",
-    "title": "벚꽃 엔딩",
-    "artist": "버스커 버스커",
-    "year": 2012,
-    "difficulty": "easy",
-    "youtubeQuery": "버스커 버스커 벚꽃 엔딩 official audio"
-  },
-  {
-    "id": "f12efbe4fc",
-    "title": "Fantastic Baby",
-    "artist": "빅뱅",
-    "year": 2012,
-    "difficulty": "easy",
-    "youtubeQuery": "빅뱅 Fantastic Baby official audio"
-  },
-  {
-    "id": "9b1f29de2d",
+    "id": "kr2012_01",
     "title": "강남스타일",
     "artist": "싸이",
     "year": 2012,
     "difficulty": "easy",
-    "youtubeQuery": "싸이 강남스타일 official audio"
+    "youtubeQuery": "싸이 강남스타일",
+    "videoId": "9bZkp7q19f0"
   },
   {
-    "id": "002b81f856",
-    "title": "나혼자 (Alone)",
+    "id": "kr2012_02",
+    "title": "벚꽃엔딩",
+    "artist": "버스커버스커",
+    "year": 2012,
+    "difficulty": "easy",
+    "youtubeQuery": "버스커버스커 벚꽃엔딩",
+    "videoId": "xwo1rY5OwYs"
+  },
+  {
+    "id": "kr2012_03",
+    "title": "Volume Up",
+    "artist": "포미닛",
+    "year": 2012,
+    "difficulty": "normal",
+    "youtubeQuery": "포미닛 Volume Up",
+    "videoId": "qsWl1--Niyg"
+  },
+  {
+    "id": "kr2012_04",
+    "title": "Loving U",
     "artist": "씨스타",
     "year": 2012,
     "difficulty": "normal",
-    "youtubeQuery": "씨스타 나혼자 (Alone) official audio"
+    "youtubeQuery": "씨스타 Loving U",
+    "videoId": "oL2AlXWVbKU"
   },
   {
-    "id": "9d887ac03c",
-    "title": "으르렁 (Growl)",
+    "id": "kr2013_01",
+    "title": "으르렁",
     "artist": "EXO",
     "year": 2013,
     "difficulty": "easy",
-    "youtubeQuery": "EXO 으르렁 (Growl) official audio"
+    "youtubeQuery": "EXO 으르렁",
+    "videoId": "I3dezFzsNss"
   },
   {
-    "id": "e54717f026",
-    "title": "BAAAM",
-    "artist": "다이나믹듀오",
+    "id": "kr2013_02",
+    "title": "A",
+    "artist": "레인보우",
     "year": 2013,
     "difficulty": "normal",
-    "youtubeQuery": "다이나믹듀오 BAAAM official audio"
+    "youtubeQuery": "레인보우 A",
+    "videoId": "QnAhnxmSNFw"
   },
   {
-    "id": "5252a65f6a",
-    "title": "Dream Girl",
-    "artist": "샤이니",
+    "id": "kr2013_03",
+    "title": "Some",
+    "artist": "소유, 정기고",
+    "year": 2013,
+    "difficulty": "easy",
+    "youtubeQuery": "소유 정기고 Some",
+    "videoId": "Y-FhDScM_2w"
+  },
+  {
+    "id": "kr2013_04",
+    "title": "Expectation",
+    "artist": "걸스데이",
     "year": 2013,
     "difficulty": "normal",
-    "youtubeQuery": "샤이니 Dream Girl official audio"
+    "youtubeQuery": "걸스데이 Expectation",
+    "videoId": "iUtGJtyoIfg"
   },
   {
-    "id": "d06a67cc5e",
-    "title": "Gentleman",
-    "artist": "싸이",
-    "year": 2013,
+    "id": "kr2014_01",
+    "title": "Mr. Chu",
+    "artist": "에이핑크",
+    "year": 2014,
     "difficulty": "easy",
-    "youtubeQuery": "싸이 Gentleman official audio"
+    "youtubeQuery": "에이핑크 Mr. Chu",
+    "videoId": "K5H-GvnNz2Y"
   },
   {
-    "id": "9eebde1c16",
-    "title": "바운스 (Bounce)",
-    "artist": "조용필",
-    "year": 2013,
+    "id": "kr2014_02",
+    "title": "빨개요",
+    "artist": "현아",
+    "year": 2014,
     "difficulty": "normal",
-    "youtubeQuery": "조용필 바운스 (Bounce) official audio"
+    "youtubeQuery": "현아 빨개요",
+    "videoId": "oTXCgR93zC8"
   },
   {
-    "id": "bed12cbadc",
-    "title": "200%",
-    "artist": "AKMU",
+    "id": "kr2014_03",
+    "title": "야생화",
+    "artist": "박효신",
+    "year": 2014,
+    "difficulty": "normal",
+    "youtubeQuery": "박효신 야생화",
+    "videoId": "bcdJgjNDsto"
+  },
+  {
+    "id": "kr2014_04",
+    "title": "금요일에 만나요",
+    "artist": "아이유",
     "year": 2014,
     "difficulty": "easy",
-    "youtubeQuery": "AKMU 200% official audio"
+    "youtubeQuery": "아이유 금요일에 만나요",
+    "videoId": "FhJNn_Z6rak"
   },
   {
-    "id": "bdf2e1e7fd",
-    "title": "Overdose",
-    "artist": "EXO",
-    "year": 2014,
-    "difficulty": "easy",
-    "youtubeQuery": "EXO Overdose official audio"
-  },
-  {
-    "id": "8df9377160",
-    "title": "썸",
-    "artist": "소유 & 정기고",
-    "year": 2014,
-    "difficulty": "easy",
-    "youtubeQuery": "소유 & 정기고 썸 official audio"
-  },
-  {
-    "id": "3083a889ad",
-    "title": "손대지마",
-    "artist": "에일리",
-    "year": 2014,
-    "difficulty": "easy",
-    "youtubeQuery": "에일리 손대지마 official audio"
-  },
-  {
-    "id": "1cf83e58c6",
-    "title": "눈, 코, 입",
-    "artist": "태양",
-    "year": 2014,
-    "difficulty": "easy",
-    "youtubeQuery": "태양 눈, 코, 입 official audio"
-  },
-  {
-    "id": "3467159375",
-    "title": "CALL ME BABY",
-    "artist": "EXO",
-    "year": 2015,
-    "difficulty": "easy",
-    "youtubeQuery": "EXO CALL ME BABY official audio"
-  },
-  {
-    "id": "88eeb4a3f5",
-    "title": "I NEED U",
-    "artist": "방탄소년단",
-    "year": 2015,
-    "difficulty": "easy",
-    "youtubeQuery": "방탄소년단 I NEED U official audio"
-  },
-  {
-    "id": "8c6351b257",
-    "title": "뱅뱅뱅",
+    "id": "kr2015_01",
+    "title": "Bang Bang Bang",
     "artist": "빅뱅",
     "year": 2015,
     "difficulty": "easy",
-    "youtubeQuery": "빅뱅 뱅뱅뱅 official audio"
+    "youtubeQuery": "빅뱅 Bang Bang Bang",
+    "videoId": "2ips2mM7Zqw"
   },
   {
-    "id": "340ed931a4",
-    "title": "금요일에 만나요",
-    "artist": "아이유",
-    "year": 2015,
-    "difficulty": "easy",
-    "youtubeQuery": "아이유 금요일에 만나요 official audio"
-  },
-  {
-    "id": "dccfd66f9d",
-    "title": "TOMBOY",
-    "artist": "혁오",
+    "id": "kr2015_02",
+    "title": "I Need Somebody",
+    "artist": "데이식스",
     "year": 2015,
     "difficulty": "normal",
-    "youtubeQuery": "혁오 TOMBOY official audio"
+    "youtubeQuery": "데이식스 I Need Somebody",
+    "videoId": "j-TcFt2OVSw"
   },
   {
-    "id": "3b5acde0cd",
-    "title": "불장난",
-    "artist": "BLACKPINK",
-    "year": 2016,
-    "difficulty": "easy",
-    "youtubeQuery": "BLACKPINK 불장난 official audio"
-  },
-  {
-    "id": "2f86951d30",
-    "title": "우주를 줄게",
-    "artist": "볼빨간사춘기",
-    "year": 2016,
-    "difficulty": "easy",
-    "youtubeQuery": "볼빨간사춘기 우주를 줄게 official audio"
-  },
-  {
-    "id": "37918ad1d4",
-    "title": "휘파람",
-    "artist": "블랙핑크",
-    "year": 2016,
-    "difficulty": "easy",
-    "youtubeQuery": "블랙핑크 휘파람 official audio"
-  },
-  {
-    "id": "306398d4b2",
-    "title": "너는 나 나는 너",
-    "artist": "지코",
-    "year": 2016,
+    "id": "kr2015_03",
+    "title": "Dumb Dumb",
+    "artist": "레드벨벳",
+    "year": 2015,
     "difficulty": "normal",
-    "youtubeQuery": "지코 너는 나 나는 너 official audio"
+    "youtubeQuery": "레드벨벳 Dumb Dumb",
+    "videoId": "XGdbaEDVWp0"
   },
   {
-    "id": "aee309eae6",
+    "id": "kr2015_04",
+    "title": "심쿵해",
+    "artist": "아이오아이",
+    "year": 2015,
+    "difficulty": "normal",
+    "youtubeQuery": "아이오아이 심쿵해",
+    "videoId": "M6KVLrhaVso"
+  },
+  {
+    "id": "kr2016_01",
     "title": "CHEER UP",
     "artist": "트와이스",
     "year": 2016,
     "difficulty": "easy",
-    "youtubeQuery": "트와이스 CHEER UP official audio"
+    "youtubeQuery": "트와이스 CHEER UP",
+    "videoId": "c7rCyll5AeY"
   },
   {
-    "id": "7e45f57f45",
+    "id": "kr2016_02",
+    "title": "TT",
+    "artist": "트와이스",
+    "year": 2016,
+    "difficulty": "easy",
+    "youtubeQuery": "트와이스 TT",
+    "videoId": "ePpPVE-GGJw"
+  },
+  {
+    "id": "kr2016_03",
+    "title": "불장난",
+    "artist": "블랙핑크",
+    "year": 2016,
+    "difficulty": "easy",
+    "youtubeQuery": "블랙핑크 불장난",
+    "videoId": "9pdj4iJD08s"
+  },
+  {
+    "id": "kr2016_04",
+    "title": "러시안룰렛",
+    "artist": "레드벨벳",
+    "year": 2016,
+    "difficulty": "normal",
+    "youtubeQuery": "레드벨벳 러시안룰렛",
+    "videoId": "QslJYDX3o8s"
+  },
+  {
+    "id": "kr2017_01",
+    "title": "DNA",
+    "artist": "방탄소년단",
+    "year": 2017,
+    "difficulty": "easy",
+    "youtubeQuery": "방탄소년단 DNA",
+    "videoId": "MBdVXkSdhwU"
+  },
+  {
+    "id": "kr2017_02",
+    "title": "As If It's Your Last",
+    "artist": "블랙핑크",
+    "year": 2017,
+    "difficulty": "easy",
+    "youtubeQuery": "블랙핑크 As If It's Your Last",
+    "videoId": "Amq-qlqbjYA"
+  },
+  {
+    "id": "kr2017_03",
+    "title": "밤편지",
+    "artist": "아이유",
+    "year": 2017,
+    "difficulty": "easy",
+    "youtubeQuery": "아이유 밤편지",
+    "videoId": "BzYnNdJhZQw"
+  },
+  {
+    "id": "kr2017_04",
     "title": "빨간 맛",
     "artist": "레드벨벳",
     "year": 2017,
     "difficulty": "easy",
-    "youtubeQuery": "레드벨벳 빨간 맛 official audio"
+    "youtubeQuery": "레드벨벳 빨간 맛",
+    "videoId": "WyiIGEHQP8o"
   },
   {
-    "id": "cf7c09fa9d",
-    "title": "봄날",
-    "artist": "방탄소년단",
-    "year": 2017,
-    "difficulty": "easy",
-    "youtubeQuery": "방탄소년단 봄날 official audio"
-  },
-  {
-    "id": "83cec02645",
-    "title": "가시나",
-    "artist": "선미",
-    "year": 2017,
-    "difficulty": "easy",
-    "youtubeQuery": "선미 가시나 official audio"
-  },
-  {
-    "id": "6fb8df1117",
-    "title": "좋니",
-    "artist": "윤종신",
-    "year": 2017,
-    "difficulty": "easy",
-    "youtubeQuery": "윤종신 좋니 official audio"
-  },
-  {
-    "id": "9dcbad284b",
-    "title": "비도 오고 그래서",
-    "artist": "헤이즈",
+    "id": "kr2017_05",
+    "title": "Knock Knock",
+    "artist": "트와이스",
     "year": 2017,
     "difficulty": "normal",
-    "youtubeQuery": "헤이즈 비도 오고 그래서 official audio"
+    "youtubeQuery": "트와이스 Knock Knock",
+    "videoId": "8A2t_tAjMz8"
   },
   {
-    "id": "04f6a023d3",
-    "title": "사랑을 했다",
-    "artist": "iKON",
+    "id": "kr2018_01",
+    "title": "뚜두뚜두",
+    "artist": "블랙핑크",
     "year": 2018,
     "difficulty": "easy",
-    "youtubeQuery": "iKON 사랑을 했다 official audio"
+    "youtubeQuery": "블랙핑크 뚜두뚜두",
+    "videoId": "IHNzOHi8sJs"
   },
   {
-    "id": "48fad1b0e1",
-    "title": "별이 빛나는 밤",
-    "artist": "마마무",
-    "year": 2018,
-    "difficulty": "normal",
-    "youtubeQuery": "마마무 별이 빛나는 밤 official audio"
-  },
-  {
-    "id": "63cbcca401",
-    "title": "Fake Love",
+    "id": "kr2018_02",
+    "title": "IDOL",
     "artist": "방탄소년단",
     "year": 2018,
-    "difficulty": "normal",
-    "youtubeQuery": "방탄소년단 Fake Love official audio"
+    "difficulty": "easy",
+    "youtubeQuery": "방탄소년단 IDOL",
+    "videoId": "pBuZEGYXA6E"
   },
   {
-    "id": "368b8779af",
+    "id": "kr2018_03",
+    "title": "LOVE SCENARIO",
+    "artist": "아이콘",
+    "year": 2018,
+    "difficulty": "easy",
+    "youtubeQuery": "아이콘 LOVE SCENARIO",
+    "videoId": "vecSVX1QYbQ"
+  },
+  {
+    "id": "kr2018_04",
     "title": "What is Love?",
     "artist": "트와이스",
     "year": 2018,
-    "difficulty": "normal",
-    "youtubeQuery": "트와이스 What is Love? official audio"
-  },
-  {
-    "id": "0143f55c41",
-    "title": "모든 날, 모든 순간",
-    "artist": "폴킴",
-    "year": 2018,
     "difficulty": "easy",
-    "youtubeQuery": "폴킴 모든 날, 모든 순간 official audio"
+    "youtubeQuery": "트와이스 What is Love?",
+    "videoId": "i0p1bmr0EmE"
   },
   {
-    "id": "3a0ca1d6b2",
-    "title": "DALLA DALLA",
-    "artist": "ITZY",
+    "id": "kr2018_05",
+    "title": "Dance The Night Away",
+    "artist": "트와이스",
+    "year": 2018,
+    "difficulty": "normal",
+    "youtubeQuery": "트와이스 Dance The Night Away",
+    "videoId": "Fm5iP0S1z9w"
+  },
+  {
+    "id": "kr2019_01",
+    "title": "FANCY",
+    "artist": "트와이스",
     "year": 2019,
     "difficulty": "easy",
-    "youtubeQuery": "ITZY DALLA DALLA official audio"
+    "youtubeQuery": "트와이스 FANCY",
+    "videoId": "kOHB85vDuow"
   },
   {
-    "id": "2a1e248f43",
+    "id": "kr2019_02",
+    "title": "Kill This Love",
+    "artist": "블랙핑크",
+    "year": 2019,
+    "difficulty": "easy",
+    "youtubeQuery": "블랙핑크 Kill This Love",
+    "videoId": "2S24-y0Ij3Y"
+  },
+  {
+    "id": "kr2019_03",
     "title": "Boy With Luv",
     "artist": "방탄소년단",
     "year": 2019,
     "difficulty": "easy",
-    "youtubeQuery": "방탄소년단 Boy With Luv official audio"
+    "youtubeQuery": "방탄소년단 Boy With Luv",
+    "videoId": "XsX3ATc3FbA"
   },
   {
-    "id": "8654a323ca",
-    "title": "넘쳐흘러",
-    "artist": "엠씨더맥스",
+    "id": "kr2019_04",
+    "title": "LION",
+    "artist": "(여자)아이들",
     "year": 2019,
     "difficulty": "normal",
-    "youtubeQuery": "엠씨더맥스 넘쳐흘러 official audio"
+    "youtubeQuery": "(여자)아이들 LION",
+    "videoId": "6oanIo_2Z4Q"
   },
   {
-    "id": "09636e7288",
-    "title": "Gotta Go",
-    "artist": "청하",
+    "id": "kr2019_05",
+    "title": "Dalla Dalla",
+    "artist": "ITZY",
     "year": 2019,
     "difficulty": "easy",
-    "youtubeQuery": "청하 Gotta Go official audio"
+    "youtubeQuery": "ITZY Dalla Dalla",
+    "videoId": "pNfTK39k55U"
   },
   {
-    "id": "2bec073f68",
-    "title": "Four Seasons",
-    "artist": "태연",
-    "year": 2019,
-    "difficulty": "normal",
-    "youtubeQuery": "태연 Four Seasons official audio"
-  },
-  {
-    "id": "ebae6c34c6",
-    "title": "아무노래",
-    "artist": "ZICO",
+    "id": "kr2020_01",
+    "title": "How You Like That",
+    "artist": "블랙핑크",
     "year": 2020,
     "difficulty": "easy",
-    "youtubeQuery": "ZICO 아무노래 official audio"
+    "youtubeQuery": "블랙핑크 How You Like That",
+    "videoId": "ioNng23DkIM"
   },
   {
-    "id": "2404b62e35",
+    "id": "kr2020_02",
     "title": "Dynamite",
     "artist": "방탄소년단",
     "year": 2020,
     "difficulty": "easy",
-    "youtubeQuery": "방탄소년단 Dynamite official audio"
+    "youtubeQuery": "방탄소년단 Dynamite",
+    "videoId": "gdZLi9oWNZg"
   },
   {
-    "id": "9e3dc2c444",
-    "title": "에잇 (Prod.&Feat. SUGA)",
-    "artist": "아이유",
+    "id": "kr2020_03",
+    "title": "아무노래",
+    "artist": "지코",
     "year": 2020,
     "difficulty": "easy",
-    "youtubeQuery": "아이유 에잇 (Prod.&Feat. SUGA) official audio"
+    "youtubeQuery": "지코 아무노래",
+    "videoId": "VBZA_15mGGU"
   },
   {
-    "id": "8594163fe8",
-    "title": "살짝 설렜어",
-    "artist": "오마이걸",
+    "id": "kr2020_04",
+    "title": "마리아",
+    "artist": "화사",
     "year": 2020,
-    "difficulty": "easy",
-    "youtubeQuery": "오마이걸 살짝 설렜어 official audio"
-  },
-  {
-    "id": "3ca56032f7",
-    "title": "아로하",
-    "artist": "조정석",
-    "year": 2020,
-    "difficulty": "easy",
-    "youtubeQuery": "조정석 아로하 official audio"
-  },
-  {
-    "id": "51ba24ee96",
-    "title": "낙하 (with IU)",
-    "artist": "AKMU",
-    "year": 2021,
     "difficulty": "normal",
-    "youtubeQuery": "AKMU 낙하 (with IU) official audio"
+    "youtubeQuery": "화사 마리아",
+    "videoId": "tDukIfFzX18"
   },
   {
-    "id": "5ab885a905",
-    "title": "Next Level",
-    "artist": "aespa",
-    "year": 2021,
-    "difficulty": "easy",
-    "youtubeQuery": "aespa Next Level official audio"
+    "id": "kr2020_05",
+    "title": "NOT SHY",
+    "artist": "ITZY",
+    "year": 2020,
+    "difficulty": "normal",
+    "youtubeQuery": "ITZY NOT SHY",
+    "videoId": "wTowEKjDGkU"
   },
   {
-    "id": "d552e1cf8d",
+    "id": "kr2021_01",
     "title": "Butter",
     "artist": "방탄소년단",
     "year": 2021,
     "difficulty": "easy",
-    "youtubeQuery": "방탄소년단 Butter official audio"
+    "youtubeQuery": "방탄소년단 Butter",
+    "videoId": "WMweEpGlu_U"
   },
   {
-    "id": "bc69f582df",
-    "title": "Rollin'",
-    "artist": "브레이브걸스",
+    "id": "kr2021_02",
+    "title": "Next Level",
+    "artist": "에스파",
     "year": 2021,
     "difficulty": "easy",
-    "youtubeQuery": "브레이브걸스 Rollin' official audio"
+    "youtubeQuery": "에스파 Next Level",
+    "videoId": "4TWR90KJl84"
   },
   {
-    "id": "fa315290d3",
-    "title": "ELEVEN",
-    "artist": "아이브",
+    "id": "kr2021_03",
+    "title": "Alcohol-Free",
+    "artist": "트와이스",
+    "year": 2021,
+    "difficulty": "normal",
+    "youtubeQuery": "트와이스 Alcohol-Free",
+    "videoId": "XA2YEHn-A8Q"
+  },
+  {
+    "id": "kr2021_04",
+    "title": "LOCO",
+    "artist": "ITZY",
+    "year": 2021,
+    "difficulty": "normal",
+    "youtubeQuery": "ITZY LOCO",
+    "videoId": "MjCZfZfucEc"
+  },
+  {
+    "id": "kr2021_05",
+    "title": "MONEY",
+    "artist": "리사",
     "year": 2021,
     "difficulty": "easy",
-    "youtubeQuery": "아이브 ELEVEN official audio"
+    "youtubeQuery": "리사 MONEY",
+    "videoId": "dNCWe_6HAM8"
   },
   {
-    "id": "d685f4eeb6",
-    "title": "Celebrity",
-    "artist": "아이유",
-    "year": 2021,
+    "id": "kr2022_01",
+    "title": "Pink Venom",
+    "artist": "블랙핑크",
+    "year": 2022,
     "difficulty": "easy",
-    "youtubeQuery": "아이유 Celebrity official audio"
+    "youtubeQuery": "블랙핑크 Pink Venom",
+    "videoId": "gQlMMD8auMs"
   },
   {
-    "id": "92f97a44b4",
+    "id": "kr2022_02",
+    "title": "That That",
+    "artist": "싸이",
+    "year": 2022,
+    "difficulty": "easy",
+    "youtubeQuery": "싸이 That That",
+    "videoId": "8dJyRm2jJ-U"
+  },
+  {
+    "id": "kr2022_03",
+    "title": "LOVE DIVE",
+    "artist": "IVE",
+    "year": 2022,
+    "difficulty": "easy",
+    "youtubeQuery": "IVE LOVE DIVE",
+    "videoId": "Y8JFxS1HlDo"
+  },
+  {
+    "id": "kr2022_04",
+    "title": "Sneakers",
+    "artist": "ITZY",
+    "year": 2022,
+    "difficulty": "normal",
+    "youtubeQuery": "ITZY Sneakers",
+    "videoId": "y276VjaSmRY"
+  },
+  {
+    "id": "kr2022_05",
     "title": "TOMBOY",
     "artist": "(여자)아이들",
     "year": 2022,
     "difficulty": "easy",
-    "youtubeQuery": "(여자)아이들 TOMBOY official audio"
+    "youtubeQuery": "(여자)아이들 TOMBOY",
+    "videoId": "Jh4QFaPmdss"
   },
   {
-    "id": "92018bbec0",
-    "title": "After LIKE",
-    "artist": "IVE",
-    "year": 2022,
-    "difficulty": "easy",
-    "youtubeQuery": "IVE After LIKE official audio"
-  },
-  {
-    "id": "79c279ba3a",
-    "title": "Hype Boy",
-    "artist": "뉴진스",
-    "year": 2022,
-    "difficulty": "easy",
-    "youtubeQuery": "뉴진스 Hype Boy official audio"
-  },
-  {
-    "id": "f6ab9ff52e",
-    "title": "LOVE DIVE",
-    "artist": "아이브",
-    "year": 2022,
-    "difficulty": "easy",
-    "youtubeQuery": "아이브 LOVE DIVE official audio"
-  },
-  {
-    "id": "bab998399d",
-    "title": "사건의 지평선",
-    "artist": "윤하",
-    "year": 2022,
-    "difficulty": "easy",
-    "youtubeQuery": "윤하 사건의 지평선 official audio"
-  },
-  {
-    "id": "7c7f8248c5",
-    "title": "우리들의 블루스",
-    "artist": "임영웅",
+    "id": "kr2022_06",
+    "title": "FEARLESS",
+    "artist": "LE SSERAFIM",
     "year": 2022,
     "difficulty": "normal",
-    "youtubeQuery": "임영웅 우리들의 블루스 official audio"
+    "youtubeQuery": "LE SSERAFIM FEARLESS",
+    "videoId": "4vbDFu0PUew"
   },
   {
-    "id": "0b445d0b24",
+    "id": "kr2023_01",
     "title": "Queencard",
     "artist": "(여자)아이들",
     "year": 2023,
     "difficulty": "easy",
-    "youtubeQuery": "(여자)아이들 Queencard official audio"
+    "youtubeQuery": "(여자)아이들 Queencard",
+    "videoId": "7HJxHXGW4V4"
   },
   {
-    "id": "26a55e1889",
-    "title": "UNFORGIVEN",
-    "artist": "LE SSERAFIM",
+    "id": "kr2023_02",
+    "title": "Super Shy",
+    "artist": "뉴진스",
     "year": 2023,
-    "difficulty": "normal",
-    "youtubeQuery": "LE SSERAFIM UNFORGIVEN official audio"
+    "difficulty": "easy",
+    "youtubeQuery": "뉴진스 Super Shy",
+    "videoId": "ArmDp-zijuc"
   },
   {
-    "id": "b26eaa3870",
-    "title": "Get A Guitar",
-    "artist": "RIIZE",
-    "year": 2023,
-    "difficulty": "normal",
-    "youtubeQuery": "RIIZE Get A Guitar official audio"
-  },
-  {
-    "id": "b77e548ac3",
+    "id": "kr2023_03",
     "title": "Ditto",
     "artist": "뉴진스",
     "year": 2023,
     "difficulty": "easy",
-    "youtubeQuery": "뉴진스 Ditto official audio"
+    "youtubeQuery": "뉴진스 Ditto",
+    "videoId": "Km71Rr9K-Bw"
   },
   {
-    "id": "0229c54b4f",
+    "id": "kr2023_04",
     "title": "I AM",
-    "artist": "아이브",
+    "artist": "IVE",
     "year": 2023,
     "difficulty": "easy",
-    "youtubeQuery": "아이브 I AM official audio"
+    "youtubeQuery": "IVE I AM",
+    "videoId": "6ZUIwj3FgUY"
   },
   {
-    "id": "0bfed59dfe",
-    "title": "Seven",
-    "artist": "정국",
+    "id": "kr2023_05",
+    "title": "Either Way",
+    "artist": "IVE",
+    "year": 2023,
+    "difficulty": "normal",
+    "youtubeQuery": "IVE Either Way",
+    "videoId": "60lR_UelYWg"
+  },
+  {
+    "id": "kr2023_06",
+    "title": "Kitsch",
+    "artist": "IVE",
+    "year": 2023,
+    "difficulty": "normal",
+    "youtubeQuery": "IVE Kitsch",
+    "videoId": "vTZRzFTFmnI"
+  },
+  {
+    "id": "kr2023_07",
+    "title": "OMG",
+    "artist": "뉴진스",
     "year": 2023,
     "difficulty": "easy",
-    "youtubeQuery": "정국 Seven official audio"
+    "youtubeQuery": "뉴진스 OMG",
+    "videoId": "sVTy_wmn5SU"
   },
   {
-    "id": "49e4721ab0",
-    "title": "나는 아픈 건 딱 질색이니까",
-    "artist": "(여자)아이들",
-    "year": 2024,
-    "difficulty": "normal",
-    "youtubeQuery": "(여자)아이들 나는 아픈 건 딱 질색이니까 official audio"
-  },
-  {
-    "id": "3ccd4fd245",
-    "title": "Magnetic",
-    "artist": "ILLIT",
+    "id": "kr2024_01",
+    "title": "Love Lee",
+    "artist": "AKMU",
     "year": 2024,
     "difficulty": "easy",
-    "youtubeQuery": "ILLIT Magnetic official audio"
+    "youtubeQuery": "AKMU Love Lee",
+    "videoId": "5DZEVuFWZ3Y"
   },
   {
-    "id": "9cf403c21b",
-    "title": "첫 만남은 계획대로 되지 않아",
-    "artist": "TWS",
-    "year": 2024,
-    "difficulty": "normal",
-    "youtubeQuery": "TWS 첫 만남은 계획대로 되지 않아 official audio"
-  },
-  {
-    "id": "1f6ebbcf03",
+    "id": "kr2024_02",
     "title": "Supernova",
-    "artist": "aespa",
+    "artist": "에스파",
     "year": 2024,
     "difficulty": "easy",
-    "youtubeQuery": "aespa Supernova official audio"
+    "youtubeQuery": "에스파 Supernova",
+    "videoId": "phuiiNCxRMg"
   },
   {
-    "id": "2fcdbf3ec1",
+    "id": "kr2024_03",
+    "title": "Small girl",
+    "artist": "이영지",
+    "year": 2024,
+    "difficulty": "normal",
+    "youtubeQuery": "이영지 Small girl",
+    "videoId": "_ysomCGaZLw"
+  },
+  {
+    "id": "kr2024_04",
+    "title": "Magnetic",
+    "artist": "아일릿",
+    "year": 2024,
+    "difficulty": "easy",
+    "youtubeQuery": "아일릿 Magnetic",
+    "videoId": "YK4r_tJOzWg"
+  },
+  {
+    "id": "kr2024_05",
+    "title": "SPOT!",
+    "artist": "지코, 제니",
+    "year": 2024,
+    "difficulty": "easy",
+    "youtubeQuery": "지코 제니 SPOT!",
+    "videoId": "xkJfgUk1U9I"
+  },
+  {
+    "id": "kr2024_06",
+    "title": "Armageddon",
+    "artist": "에스파",
+    "year": 2024,
+    "difficulty": "normal",
+    "youtubeQuery": "에스파 Armageddon",
+    "videoId": "LaKLW5nBvTw"
+  },
+  {
+    "id": "kr2024_07",
     "title": "How Sweet",
     "artist": "뉴진스",
     "year": 2024,
     "difficulty": "normal",
-    "youtubeQuery": "뉴진스 How Sweet official audio"
+    "youtubeQuery": "뉴진스 How Sweet",
+    "videoId": "Q3y-80HBM6Q"
   },
   {
-    "id": "8775a778b5",
-    "title": "Love wins all",
-    "artist": "아이유",
-    "year": 2024,
+    "id": "kr2025_01",
+    "title": "APT.",
+    "artist": "로제, 브루노 마스",
+    "year": 2025,
+    "difficulty": "easy",
+    "youtubeQuery": "로제 브루노마스 APT.",
+    "videoId": "ekr2nIex040"
+  },
+  {
+    "id": "kr2025_02",
+    "title": "Whiplash",
+    "artist": "에스파",
+    "year": 2025,
     "difficulty": "normal",
-    "youtubeQuery": "아이유 Love wins all official audio"
+    "youtubeQuery": "에스파 Whiplash",
+    "videoId": "jWQx2f-CErU"
+  },
+  {
+    "id": "kr2025_03",
+    "title": "UP",
+    "artist": "카리나",
+    "year": 2025,
+    "difficulty": "normal",
+    "youtubeQuery": "카리나 UP",
+    "videoId": "zZw6fN_dmLA"
+  },
+  {
+    "id": "kr2025_04",
+    "title": "Mantra",
+    "artist": "제니",
+    "year": 2025,
+    "difficulty": "normal",
+    "youtubeQuery": "제니 Mantra",
+    "videoId": "eVYrolINdRU"
+  },
+  {
+    "id": "kr2025_05",
+    "title": "Toxic",
+    "artist": "로제",
+    "year": 2025,
+    "difficulty": "normal",
+    "youtubeQuery": "로제 Toxic",
+    "videoId": "eVYrolINdRU"
   }
 ]

@@ -7,6 +7,7 @@ import { shuffle, uuid, ytSearchUrl } from "./lib/utils";
 import PlayerCard from "./components/PlayerCard";
 import DraggableSongCard from "./components/DraggableSongCard";
 import { DropSlot } from "./components/TimelineDrop";
+import YouTubePlayer from "./components/YouTubePlayer";
 
 const SONGS = songs as Song[];
 const songsById: Record<string, Song> = Object.fromEntries(SONGS.map((s) => [s.id, s]));
@@ -78,6 +79,7 @@ export default function App() {
   const [newName, setNewName] = useState("");
   const [difficulty, setDifficulty] = useState<"all" | "easy" | "normal" | "hard">("all");
   const [challengeBy, setChallengeBy] = useState<string>("");
+  const [currentVideoId, setCurrentVideoId] = useState<string | null>(null);
 
   const filteredDeck = useMemo(() => {
     if (difficulty === "all") return state.deckSongIds;
@@ -160,6 +162,13 @@ export default function App() {
     const deckSet = new Set(state.deckSongIds);
     deckSet.delete(id);
     const deckSongIds = [...deckSet];
+
+    // 현재 곡의 비디오 ID 설정
+    const song = songsById[id];
+    if (song?.videoId) {
+      setCurrentVideoId(song.videoId);
+    }
+
     commit({
       ...state,
       deckSongIds,
@@ -314,6 +323,15 @@ export default function App() {
 
   return (
     <div className="container">
+      {/* YouTube Player - 숨김 상태로 자동 재생 */}
+      <YouTubePlayer
+        videoId={currentVideoId}
+        onEnd={() => {
+          console.log("YouTube playback ended or stopped after 1 minute");
+          setCurrentVideoId(null);
+        }}
+      />
+
       <div className="h1">Hitster KR (Host)</div>
       <div className="small">
         유튜브는 <b>직접 재생</b>하고, 이 웹은 <b>곡/연도 판정 & 플레이어 타임라인</b>만 담당합니다.

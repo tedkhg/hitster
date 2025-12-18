@@ -13,6 +13,7 @@ export interface Song {
 export interface TimelineCard {
   songId: string;
   year: number;
+  revealed: boolean; // 정답을 맞춰서 공개된 카드인지 여부
 }
 
 export type RoundRule = "single" | "all";
@@ -45,8 +46,10 @@ export interface GameState {
     placedYear: number;
     actualYear: number;
     insertedIndex: number;
+    guessedYear?: number; // 플레이어가 입력한 연도
     challengedById?: string;
     challengeResolved?: boolean;
     challengeSucceeded?: boolean;
+    challengerGuessedYear?: number; // 이의제기 팀이 입력한 연도
   };
 }

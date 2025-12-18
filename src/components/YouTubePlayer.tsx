@@ -16,7 +16,7 @@ interface YouTubePlayerProps {
 export default function YouTubePlayer({ videoId, onReady, onEnd }: YouTubePlayerProps) {
   const playerRef = useRef<any>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const timerRef = useRef<number | null>(null);
 
   useEffect(() => {
     if (!videoId) return;

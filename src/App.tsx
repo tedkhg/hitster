@@ -31,15 +31,23 @@ function freshTeamsState(): GameState {
   const t1 = uuid();
   const t2 = uuid();
   const t3 = uuid();
+
+  // 덱 섞기
+  const shuffledDeck = shuffle(SONGS.map((s) => s.id));
+
+  // 각 팀에 첫 번째 카드를 1개씩 공개된 상태로 제공
+  const initialCards = shuffledDeck.slice(0, 3);
+  const remainingDeck = shuffledDeck.slice(3);
+
   return {
     mode: "teams",
     players: [
-      { id: t1, name: "1팀", score: 0, timeline: [] },
-      { id: t2, name: "2팀", score: 0, timeline: [] },
-      { id: t3, name: "3팀", score: 0, timeline: [] },
+      { id: t1, name: "1팀", score: 0, timeline: [{ songId: initialCards[0], year: songsById[initialCards[0]].year, revealed: true }] },
+      { id: t2, name: "2팀", score: 0, timeline: [{ songId: initialCards[1], year: songsById[initialCards[1]].year, revealed: true }] },
+      { id: t3, name: "3팀", score: 0, timeline: [{ songId: initialCards[2], year: songsById[initialCards[2]].year, revealed: true }] },
     ],
-    deckSongIds: shuffle(SONGS.map((s) => s.id)),
-    usedSongIds: [],
+    deckSongIds: remainingDeck,
+    usedSongIds: initialCards,
     currentSongId: null,
     revealed: false,
     roundRule: "single",
@@ -80,6 +88,11 @@ export default function App() {
   const [difficulty, setDifficulty] = useState<"all" | "easy" | "normal" | "hard">("all");
   const [challengeBy, setChallengeBy] = useState<string>("");
   const [currentVideoId, setCurrentVideoId] = useState<string | null>(null);
+
+  // 카드 배치 관련 상태
+  const [pendingPlacement, setPendingPlacement] = useState<{playerId: string, insertIndex: number} | null>(null);
+  const [guessedYear, setGuessedYear] = useState<string>("");
+  const [challengerGuessedYear, setChallengerGuessedYear] = useState<string>("");
 
   const filteredDeck = useMemo(() => {
     if (difficulty === "all") return state.deckSongIds;
@@ -180,6 +193,9 @@ export default function App() {
       roundPlacedTeamIds: [],
     });
     setChallengeBy("");
+    setPendingPlacement(null);
+    setGuessedYear("");
+    setChallengerGuessedYear("");
   }
 
   function reveal() {
@@ -192,7 +208,7 @@ export default function App() {
     window.open(ytSearchUrl(currentSong.youtubeQuery), "_blank", "noopener,noreferrer");
   }
 
-  function placeForPlayer(playerId: string, insertIndex: number) {
+  function placeForPlayer(playerId: string, insertIndex: number, guessYear?: number) {
     if (!currentSong) return;
     if (!canDropFor(playerId)) return;
     const player = state.players.find((p) => p.id === playerId);
@@ -200,11 +216,15 @@ export default function App() {
 
     const actualYear = currentSong.year;
     const sorted = [...player.timeline].sort((a, b) => a.year - b.year);
-    const ok = isPlacementCorrect(sorted, insertIndex, actualYear);
+
+    // 정답 조건: 정확한 연도를 맞추거나 OR 올바른 위치에 배치
+    const yearCorrect = guessYear === actualYear;
+    const positionCorrect = isPlacementCorrect(sorted, insertIndex, actualYear);
+    const ok = yearCorrect || positionCorrect;
 
     if (ok) {
       const nextTimeline = [...sorted];
-      nextTimeline.splice(insertIndex, 0, { songId: currentSong.id, year: actualYear });
+      nextTimeline.splice(insertIndex, 0, { songId: currentSong.id, year: actualYear, revealed: true });
       const players = state.players.map((p) =>
         p.id === playerId ? { ...p, timeline: nextTimeline, score: p.score + 1 } : p
       );
@@ -219,6 +239,7 @@ export default function App() {
           placedYear: actualYear,
           actualYear,
           insertedIndex: insertIndex,
+          guessedYear: guessYear,
         },
         roundPlacedTeamIds:
           state.mode === "teams" && roundRule === "all"
@@ -241,6 +262,7 @@ export default function App() {
           placedYear: actualYear,
           actualYear,
           insertedIndex: insertIndex,
+          guessedYear: guessYear,
         },
         roundPlacedTeamIds:
           state.mode === "teams" && roundRule === "all"
@@ -259,7 +281,27 @@ export default function App() {
     const [, playerId, idxStr] = id.split(":");
     const insertIndex = Number(idxStr);
     if (!playerId || Number.isNaN(insertIndex)) return;
-    placeForPlayer(playerId, insertIndex);
+
+    // 배치를 pending 상태로 저장 (정답 버튼을 누르기 전까지 대기)
+    setPendingPlacement({ playerId, insertIndex });
+  }
+
+  function submitAnswer() {
+    if (!pendingPlacement) return;
+    const yearNum = parseInt(guessedYear, 10);
+    if (isNaN(yearNum)) {
+      alert("올바른 연도를 입력해주세요.");
+      return;
+    }
+
+    placeForPlayer(pendingPlacement.playerId, pendingPlacement.insertIndex, yearNum);
+    setPendingPlacement(null);
+    setGuessedYear("");
+  }
+
+  function cancelPlacement() {
+    setPendingPlacement(null);
+    setGuessedYear("");
   }
 
   function findInsertIndexForYear(timeline: TimelineCard[], year: number): number {
@@ -279,6 +321,7 @@ export default function App() {
         ...state,
         lastResult: { ...lr, challengeResolved: true, challengedById: undefined, challengeSucceeded: false },
       });
+      setChallengerGuessedYear("");
       return;
     }
 
@@ -286,27 +329,55 @@ export default function App() {
     const challengerId = challengeBy || state.players.find((p) => p.id !== lr.playerId)?.id;
     if (!challengerId || challengerId === lr.playerId) {
       commit({ ...state, lastResult: { ...lr, challengeResolved: true, challengeSucceeded: false } });
+      setChallengerGuessedYear("");
       return;
     }
 
-    // In Hitster-style objection: if the original placement was wrong and challenged, challenger wins the card.
-    const succeeded = lr.ok === false;
+    const challengerYear = parseInt(challengerGuessedYear, 10);
+    if (isNaN(challengerYear)) {
+      alert("이의제기 팀의 연도를 입력해주세요.");
+      return;
+    }
+
+    const actualYear = lr.actualYear;
+    const originalTeamYearCorrect = lr.guessedYear === actualYear;
+    const challengerYearCorrect = challengerYear === actualYear;
+
+    // 이의제기 성공 조건:
+    // 1. 원래 팀이 연도를 틀렸고, 이의제기 팀이 연도를 정확히 맞춤
+    const succeeded = !originalTeamYearCorrect && challengerYearCorrect;
 
     let players = [...state.players];
+    const challenger = players.find(p => p.id === challengerId);
+    const originalPlayer = players.find(p => p.id === lr.playerId);
 
     if (succeeded) {
+      // 이의제기 성공: 카드를 이의제기 팀에게
       players = players.map((p) => {
         if (p.id !== challengerId) return p;
         const idx = findInsertIndexForYear(p.timeline, lr.actualYear);
         const sorted = [...p.timeline].sort((a, b) => a.year - b.year);
         const nextTimeline = [...sorted];
-        nextTimeline.splice(idx, 0, { songId: lr.songId, year: lr.actualYear });
+        nextTimeline.splice(idx, 0, { songId: lr.songId, year: lr.actualYear, revealed: true });
         return { ...p, timeline: nextTimeline, score: p.score + 1 };
       });
-    } else if (challengeRule === "failMinus1") {
-      players = players.map((p) =>
-        p.id === challengerId ? { ...p, score: Math.max(0, p.score - 1) } : p
-      );
+
+      // 원래 팀이 배치했던 카드 제거 (이미 ok=false면 타임라인에 없음)
+      if (lr.ok) {
+        players = players.map((p) => {
+          if (p.id !== lr.playerId) return p;
+          return { ...p, timeline: p.timeline.filter(c => c.songId !== lr.songId), score: Math.max(0, p.score - 1) };
+        });
+      }
+    } else {
+      // 이의제기 실패
+      // 두 팀 다 연도를 틀렸지만, 원래 팀의 배치가 올바른 위치였다면 원래 팀 정답 유지
+      // 두 팀 다 틀렸고 원래 팀의 배치도 틀렸다면 오답 유지
+      if (challengeRule === "failMinus1") {
+        players = players.map((p) =>
+          p.id === challengerId ? { ...p, score: Math.max(0, p.score - 1) } : p
+        );
+      }
     }
 
     commit({
@@ -317,8 +388,10 @@ export default function App() {
         challengedById: challengerId,
         challengeResolved: true,
         challengeSucceeded: succeeded,
+        challengerGuessedYear: challengerYear,
       },
     });
+    setChallengerGuessedYear("");
   }
 
   return (
@@ -449,10 +522,39 @@ export default function App() {
               <div className="small" style={{ marginTop: 6 }}>
                 {state.revealed ? (
                   <>정답 공개됨 — 발매 연도: <b className="mono">{currentSong.year}</b></>
+                ) : pendingPlacement ? (
+                  <>카드 배치 완료! 이제 연도를 입력하고 정답 버튼을 누르세요.</>
                 ) : (
                   <>위의 카드를 드래그해서 <b>팀/플레이어 타임라인</b>의 빈 칸에 놓으세요.</>
                 )}
               </div>
+
+              {pendingPlacement && !state.revealed && (
+                <>
+                  <div className="hr" />
+                  <div className="row" style={{ alignItems: "center", gap: 10 }}>
+                    <div className="small" style={{ fontWeight: 800 }}>연도 입력</div>
+                    <input
+                      className="input"
+                      type="number"
+                      placeholder="예: 2010"
+                      value={guessedYear}
+                      onChange={(e) => setGuessedYear(e.target.value)}
+                      onKeyDown={(e) => e.key === "Enter" && submitAnswer()}
+                      style={{ width: "120px" }}
+                    />
+                    <button className="btn primary" onClick={submitAnswer}>
+                      정답 제출
+                    </button>
+                    <button className="btn" onClick={cancelPlacement}>
+                      취소
+                    </button>
+                  </div>
+                  <div className="small" style={{ marginTop: 6 }}>
+                    {state.players.find((p) => p.id === pendingPlacement.playerId)?.name}팀이 위치 {pendingPlacement.insertIndex}에 배치했습니다.
+                  </div>
+                </>
+              )}
 
               <div className="hr" />
 
@@ -480,12 +582,12 @@ export default function App() {
                             {i < sorted.length && (
                               <div className="timelineCard" role="listitem">
                                 <div className="row" style={{ justifyContent: "space-between", gap: 8 }}>
-                                  <span className="yearPill">{sorted[i].year}</span>
+                                  <span className="yearPill">{sorted[i].revealed ? sorted[i].year : "??"}</span>
                                 </div>
                                 <div style={{ fontWeight: 900, marginTop: 6 }}>
-                                  {songsById[sorted[i].songId]?.title ?? ""}
+                                  {sorted[i].revealed ? (songsById[sorted[i].songId]?.title ?? "") : "???"}
                                 </div>
-                                <div className="songMeta">{songsById[sorted[i].songId]?.artist ?? ""}</div>
+                                <div className="songMeta">{sorted[i].revealed ? (songsById[sorted[i].songId]?.artist ?? "") : "???"}</div>
                               </div>
                             )}
                           </React.Fragment>
@@ -525,6 +627,15 @@ export default function App() {
                           <option key={p.id} value={p.id}>{p.name}</option>
                         ))}
                     </select>
+                    <span className="small">연도 입력:</span>
+                    <input
+                      className="input"
+                      type="number"
+                      placeholder="예: 2010"
+                      value={challengerGuessedYear}
+                      onChange={(e) => setChallengerGuessedYear(e.target.value)}
+                      style={{ width: "120px" }}
+                    />
                     <button className="btn primary" onClick={() => resolveChallenge(true)}>
                       이의제기 적용
                     </button>
@@ -533,7 +644,7 @@ export default function App() {
                     </button>
                   </div>
                   <div className="small" style={{ marginTop: 6 }}>
-                    룰: 상대팀이 <b>연도 위치가 틀렸다고 이의제기</b>할 수 있습니다. 원래 배치가 틀렸다면 <b>이의제기 팀이 카드 획득(+1)</b>, 맞았다면{challengeRule === "failMinus1" ? " 이의제기 팀 -1" : " 페널티 없음"}.
+                    룰: 이의제기 팀이 <b>정확한 연도를 맞추면</b> 카드를 획득합니다. 원래 팀의 연도: {state.lastResult.guessedYear ?? "미입력"}
                   </div>
                 </>
               )}
@@ -543,7 +654,11 @@ export default function App() {
                   이의제기 결과: {state.lastResult.challengedById ? (
                     <>
                       <b>{state.players.find((p) => p.id === state.lastResult!.challengedById)?.name ?? "?"}</b> —{" "}
-                      {state.lastResult.challengeSucceeded ? "✅ 성공 (카드 가져감)" : "❌ 실패"}
+                      {state.lastResult.challengeSucceeded ? (
+                        <>✅ 성공 (정확한 연도 {state.lastResult.challengerGuessedYear} 맞춤, 카드 획득)</>
+                      ) : (
+                        <>❌ 실패 (입력한 연도 {state.lastResult.challengerGuessedYear}는 틀림, 정답은 {state.lastResult.actualYear})</>
+                      )}
                     </>
                   ) : (
                     <>이의제기 없음</>
